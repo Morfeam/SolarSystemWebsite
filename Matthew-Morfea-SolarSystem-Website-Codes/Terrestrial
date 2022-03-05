@@ -1,0 +1,257 @@
+<html lang="en">
+<head>
+  <title>Terrestrial Planets</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+  .footer {
+   	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+  	color: white;
+   	text-align: right;
+}
+.bg {
+  /* The image used */
+  background-image: url("Space3.jfif");
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+ .container-fluid90{
+      width: 90%
+ }</style>
+
+</head>
+<body>
+
+<div class = "bg">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/SolarSystem">Home</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun">The Sun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial">Terrestrial Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian">Jovian Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Technology">Tools and Technology</a>
+   </ul>
+   <ul class = "navbar-nav mr-right"> 
+ 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/WorkCited" class="btn btn-light">Work Cited</a>
+    </li>
+
+   </ul>
+ </div>
+</nav>
+
+
+
+<div class="container-fluid90 container-fluid p-3 my-3 border bg-light">
+  <h1>The Terrestial Planets</h1>
+  <p>The four most inner planets of our Solar System. Mostly comprised of Metals and Silicates / rocky based materials.</p>
+
+	<hr>
+
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+ 	 <div class="col">
+
+		<div class="card" style = "background-color: #efefef;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Mercury</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+
+			Mercury is the closest planet to our sun in the solar system and also the smallest planet in our solar system. The metal workers dream world, Mercury is composed of about 70% metals and 30% silicates / rocks. However, you may find it hard to breathe there as Mercury has a very small atmosphere with even less oxygen to go around. Mercury is the 2nd most dense planet in the solar system, only second to our home Earth. It takes Mercury about 88 days to go around the sun and about 59 days to spin on its axis, and you thought days felt long enough on Earth.
+			</p>
+		 </div>
+		 <div class="float-left">
+			<h6>Characteristics</h6>
+			<p style="margin-right:75px;">
+
+			Mass: 3.3011 x 10^23 kg <br>
+			Diameter: 4,879 km <br>
+			Density: 5.427 g/cm^3 <br>
+			Temperature: Low: -280 &#176;F | High: 800 &#176;F <br>
+			Orbital Period: 88 Earth Days <br>
+			Average distance from Sun: 0.4 AU <br>
+
+
+			</p>
+		 </div>
+
+		 <div class="float-right">
+			<img src="Mercury1.jpg" class="rounded" alt="Mercury" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+
+
+  		  </div>
+                </div>
+		</div>
+		
+		<br>
+
+		<div class="card" style = "background-color: #ECECEC;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Venus</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+			Venus is the 2nd closest planet to the sun and oh boy is it warm over there. Venus is often regarded as Earth's twin. Venus is similar to Earth in a lot of ways including similar Mass, Diameter, Density, as well as a very circular orbit.  When you try to look at the surface of Venus from the outside you mostly see huge clouds of gas and a big atmosphere. Venus is a good example of what a runaway greenhouse effect looks like. Most likely due to the planet falling out of the habitable zone a few million years ago. One more interesting fact is that Venus spins counter clockwise compared to all of the other planets spins, the sun rises in the west and sets in the east on our twin. Personally, I think Venus sounds like Earth's evil twin. 
+
+			</p>
+		 </div>
+		<div class="float-left">
+			<img src="Venus1.jpg" class="rounded" alt="Ven" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+		 <div class="float-right">
+			<h6 style="margin-left:75px;">Characteristics</h6>
+			<p style="margin-left:75px;">
+			Mass: 4.867 x 10^24 kg <br>
+			Diameter: 12,104 km 	<br>
+			Density: 5.243 g/cm^3 <br>
+			Temperature: Average: 867 &#176;F <br>
+			Orbital Period: 224.7 Earth Days <br>
+			Average distance from Sun: 0.7 AU <br>
+
+			</p>
+		 </div>
+
+
+  		  </div>
+                </div>
+		</div>
+
+	</div>
+  	<div class="col">
+
+		<br>
+
+		<div class="card" style = "background-color: #d4d4d4;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Earth</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+			Home sweet home, Earth is the 3rd planet from the sun and it's our loving home. Earth is the only planet we have found life as we know it and has a strong atmosphere and systems to support such life. Earth's magnetic field protects us from radiation, Earth's Atmosphere helps regulate temperatures and allows us to breathe, everything we come to know is because of our studies on Earth. A nice and stable environment sitting on the inner edge of our solar system's habitable zone. We have a balanced greenhouse gassing effect on our planet that is self regulating and it's our job as Earthlings to continue to maintain a hospitable living environment for all we hold dear. 
+			</p>
+		 </div>
+		 <div class="float-left">
+			<h6>Characteristics</h6>
+			<p style="margin-right:75px;">
+
+			Mass: 5.972 x 10^24 kg <br>
+			Diameter: 12,742 km  <br>
+			Density: 5.514 g/cm^3 <br>
+			Temperature: Low: -128.5 &#176;F | <br> Average: 57.2 &#176;F | High: 134.0 &#176;F <br>
+			Orbital Period: 365.256 Earth Days <br>
+			Average distance from Sun: 1 AU <br>
+
+
+			</p>
+		 </div>
+
+		 <div class="float-right">
+			<img src="Earth1.jpg" class="rounded" alt="Earth" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+
+
+  		  </div>
+                </div>
+		</div>
+
+		<br>
+
+		<div class="card" style = "background-color: #bcbcbc;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Mars</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+			Mars is the 4th planet from the sun and is cold and red. With a mass and size smaller than Venus and Earth, Mars is still a calm yet cold planet that might just be the next place humans could inhabit in our Solar System. Mars is a "fixer upper" as it has a significantly weaker atmosphere than Earth and a weaker magnetic field, although it does contain Water Ice, that if used correctly and given a lot of time could eventually create a bootleg Earth like planet for humans to move into. Mars is pretty red due to iron oxides on the surface and is famous for a couple good novels and songs that come to my mind.
+			</p>
+		 </div>
+		<div class="float-left">
+			<img src="Mars1.jpg" class="rounded" alt="Mars" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+		 <div class="float-right">
+			<h6 style="margin-left:75px;">Characteristics</h6>
+			<p style="margin-left:75px;">
+
+			Mass: 6.417 x 10^23 kg <br>
+			Diameter: 6,779 km  <br>
+			Density: 3.934 g/cm^3 <br> 
+			Temperature: Low: -226 &#176;F | <br> Average: -82 &#176;F | High: 95 &#176;F <br>
+			Orbital Period: 686.971 Earth Days <br>
+			Average distance from Sun: 1.5 AU <br>
+
+
+			</p>
+		 </div>
+
+
+  		  </div>
+                </div>
+		</div>
+
+
+	</div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light rounded">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun" class="btn btn-dark">The Sun</a>
+    </li>
+    </ul>
+   <ul class = "navbar-nav mr-right"> 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian" class="btn btn-dark">Jovian Planets</a>
+    </li>
+   </ul>
+ </div>
+</nav>
+<br>
+<br>
+
+
+<div class="footer bg-dark container-fluid">
+  <p>Webpage Made by: Matthew Morfea | All Rights Reserved - .jpg Image Holders</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+  <title>The Sun</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+  .footer {
+   	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+  	color: white;
+   	text-align: right;
+}
+.bg {
+  /* The image used */
+  background-image: url("Space3.jfif");
+  
+  /* Full height */
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+</style>
+
+</head>
+<body>
+
+<div class = "bg">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/SolarSystem">Home</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun">The Sun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial">Terrestrial Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian">Jovian Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Technology">Tools and Technology</a>
+   </ul>
+   <ul class = "navbar-nav mr-right"> 
+ 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/WorkCited" class="btn btn-light">Work Cited</a>
+    </li>
+
+   </ul>
+ </div>
+</nav>
+
+
+
+<div class="container p-3 my-3 border rounded " style = "background-color: white;">
+  <h1>The Sun</h1>
+
+  <p class="p-3">
+	Our Sun, also known as the G-class Star sitting at the center of our Solar System,
+        is in short a huge ball of mostly Hydrogen and Helium gas that is the main source of 
+	energy for our Solar System. It makes up about 99.86% of our Solar System's mass.
+  </p>
+
+	<hr>
+
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+ 	 <div class="col">
+
+	 <div class="card" style = "background-color: #ECECEC;">
+     	 <div class="card-body">
+     	   <h5 class="card-title">Solar Structure</h5>
+     	   <p>
+		The Sun can be broken down into several parts, most notably the inner layers and outer layers of the sun.	 
+	   </p>
+
+	   <h6>Inner Layers</h6>
+	   <p>
+		The core of the sun is where nuclear fusion takes place and where energy and photons are first created in our star. This is the hottest and most dense portion of our sun and thus our entire Solar System. The Radiative Zone of our star is where photons tend to live most of their young lives bouncing around each other trying to escape the sun. The convection zone is where heat from the sun rises and falls like a pot of boiling water, this is where the photons can finally get released. 
+	   </p>
+
+	    <h6>Outer Layers</h6>
+	   <p>
+		The outer layers are mostly regarded as thinner and thinner areas of gas. The first of which being the Photosphere and the Chromosphere, which is where light is finally seen escaping the inner layers, a nice area to split the two sections of our sun. The Chromosphere displays beautiful red light due to Hydrogen emissions of light. Next up is the Corona, the upper atmosphere of our sun. This is where solar winds are created as thin layers of gas can swing away from the gravitational pull of our sun, it's hot bright and a beautiful sight to see with the right equipment, this is what you would see during a full solar eclipse. 
+	   </p>
+
+	   <p>
+		Our sun also produces a huge and twisting magnetic field due to negatively and positively charged ions in the inner layers. This creates a lot of different blemishes on the sun, some commonly known as Sunspots, Prominences, and Solar Flares, all visible on the Photosphere / Chromosphere. 
+	   </p>
+
+      	</div>
+    	</div>
+
+	<div class="card" style="width: auto-rem;">
+  		<img src="Sun6.png" class="card-img-top" alt="sun Image 4">
+	</div>
+
+  	 </div>
+  	<div class="col">
+		<br>
+
+		<div class="card rounded" style="width: auto-rem; height:auto-rem;">
+  		<img src="sun1.jpg" class="card-img-top" alt="Sun Image">
+		</div>
+
+
+		<div class="card"  style = "background-color: #ECECEC;">
+    	 	 <div class="card-body">
+     		   <h5 class="card-title">Formation and Evolution</h5>
+		   <h6>Early Days</h6>
+			<p>
+			Our sun started out as a cloud of gas and dust probably, leftovers from a previous star's materials, and through the process of gravity and clumping our sun grew out of the dust into a protostar. As our young stars accretion disk continued to grow, it had now formed an adolescent version of the sun we see today. 
+			</p>
+
+		  <h6>Powerhouse of the Solar System</h6>
+			<p>
+			Energy creation is a key component of how our sun formed. Our Sun uses processes like fusion to fuse Hydrogen into Helium and other elements as well as producing energy in the form of solar radiation, also known as photons or light. These processes of fusion have helped the sun's core remain intact from all of the pressures of the outer layers pushing on it through the force of gravity. 
+			</p>
+
+		   <h6>Later In Life</h6>
+			<p>
+			However, one day the sun will run out of material to continue the processes of fusion and the sun will eventually die, going through a stage of being a Red Giant due to outer layer expansion and inward core contraction. This means the sun will become a white dwarf, a stellar corpse of once was our powerhouse of the Solar System. The outer layers will reach out past the orbit of Mercury, which will likely be our demise for any life on Earth as we know it.
+			</p>
+     	  	</div>
+    	       </div>
+
+
+	</div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm bg-light rounded">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/" class="btn btn-dark">Solar System Overview</a>
+    </li>
+    </ul>
+   <ul class = "navbar-nav mr-right"> 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial" class="btn btn-dark">Terrestrial Planets</a>
+    </li>
+   </ul>
+ </div>
+</nav>
+<br>
+<br>
+
+<div class="footer bg-dark container-fluid">
+  <p>Webpage Made by: Matthew Morfea | All Rights Reserved - .jpg Image Holders</p>
+</div>
+
+</body>
+</html>

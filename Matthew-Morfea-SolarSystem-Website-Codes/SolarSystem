@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+  <title>Welcome to the Solar System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+  .footer {
+   	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+  	color: white;
+   	text-align: right;
+}
+.bg {
+  /* The image used */
+  background-image: url("Space3.jfif");
+  
+  /* Full height */
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+</style>
+
+</head>
+<body>
+
+<div class = "bg">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/SolarSystem">Home</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun">The Sun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial">Terrestrial Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian">Jovian Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Technology">Tools and Technology</a>
+   </ul>
+   <ul class = "navbar-nav mr-right"> 
+ 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/WorkCited" class="btn btn-light">Work Cited</a>
+    </li>
+
+   </ul>
+ </div>
+</nav>
+
+
+
+<div class="container p-3 my-3 border bg-light">
+  <h1>Solar System Overview</h1>
+	<div class = "pt-3 pr-3 pl-3">
+     	  		 <h5 class="card-title">Welcome</h5>
+     		  	 <p>
+			Welcome to my tour of the Solar System. On this website I briefly go through a bunch of different planets and objects that orbit in our Solar System. This is just a brief summary, it would be nearly impossible to put together a website on all of the objects we have discovered and researched in our Solar System. We also have a long way to go... 
+	  		 </p>
+	</div>
+	<hr>
+
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+	
+ 	 <div class="col-6">
+	  <div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+     	   <h5 class="card-title">Drop of Water in the Cosmic Ocean</h5>
+     	   <p>
+		Our Solar System, our home, is our local cohort of planets and other objects, gravitationally bound to our star, The Sun, at the center of our Solar System. In a way it's a kind of small street in a larger city that we call the Milky Way Galaxy, where there are many other Systems around other stars, some of which may even possibly have planets or other objects that could support life. Our Solar System orbits the center of the Milky way Galaxy and in turn our Milky Way is connected to the Local Group of galaxies, the galaxies "Nearby" to our home. 
+	   </p>
+ 	 </div>
+	</div>
+	
+	<div class="card rounded" style="width: auto-rem; height:auto-rem;">
+  		<img src="SolarSystem2.png" class="card-img-top" alt="System2">
+	</div>
+
+	<br>
+
+	<div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+     	   <h5 class="card-title">Taking Inventory</h5>
+     	   <p>
+		Our Solar System is made of different objects in kind of inventory, although no object in our solar System is the same as one another. We have discovered our Solar System to house 8 different planets and over 200 moons, along with millions of objects in our Asteroid belt and many many more in the further reaches beyond Neptune orbits in and past our Kuiper belt.
+		<br>
+		Our planets are broken down into 2 categories. The Inner rocky Terrestrial planets, like Earth, and the outer gassy Jovian planets.
+
+	   </p>
+ 	 </div>
+	</div>
+</div>
+  	<div class="col-6">
+
+	 <div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+     	   <h5 class="card-title">What does it all mean?</h5>
+     	   <p>
+		As we continue to research more and more about our Solar System, we learn more about ourselves and the role we play on our planet. By using telescopes and satellites we can map the skies and we can explore new worlds. Worlds that will hopefully show us what it means to be human. 
+	   </p>
+ 	 </div>
+	</div>
+
+	<div class="card rounded" style="width: auto-rem; height:auto-rem;">
+  		<img src="SolarSystem1.jpg" class="card-img-top" alt="System1">
+	</div>
+
+
+	</div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light rounded">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <h3>Take the Solar System's Virtual Tour >>></h3>
+    </li>
+    </ul>
+   <ul class = "navbar-nav mr-right"> 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun" class="btn btn-dark">The Sun</a>
+    </li>
+   </ul>
+ </div>
+</nav>
+<br>
+<br>
+
+<div class="footer bg-dark container-fluid">
+  <p>Webpage Made by: Matthew Morfea | All Rights Reserved - .jpg Image Holders</p>
+</div>
+
+</body>
+</html>

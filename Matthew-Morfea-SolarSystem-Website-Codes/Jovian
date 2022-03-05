@@ -1,0 +1,255 @@
+<html lang="en">
+<head>
+  <title>Jovian Planets</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+  .footer {
+   	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+  	color: white;
+   	text-align: right;
+}
+.bg {
+  /* The image used */
+  background-image: url("Space3.jfif");
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+ .container-fluid90{
+      width: 90%
+ }</style>
+
+</head>
+<body>
+
+<div class = "bg">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/SolarSystem">Home</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun">The Sun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial">Terrestrial Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian">Jovian Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Technology">Tools and Technology</a>
+   </ul>
+   <ul class = "navbar-nav mr-right"> 
+ 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/WorkCited" class="btn btn-light">Work Cited</a>
+    </li>
+
+   </ul>
+ </div>
+</nav>
+
+
+
+<div class="container-fluid90 container-fluid p-3 my-3 border bg-light">
+  <h1>The Jovian Planets</h1>
+  <p>The four outer planets of our Solar System. Known as part Gas Giants and Ice Giants, 
+     these planets are mostly made of Hydrogen, Helium, Water, Ammonia, and Methane. 
+  </p>
+
+	<hr>
+
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+ 	 <div class="col">
+
+		<div class="card text-white" style= "background-color: #5e5e5e;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Jupiter</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+			The 5th planet out on our list and the largest planet in our Solar System, Jupiter is big and bad. Along with having a huge atmosphere due to its gassy nature, Jupiter harbors the biggest storm ever recorded in the Solar System known as the mysterious Great Red Spot. Along with the Red Spot, Jupiter also holds the record of most sizable moons in the Solar System, holding 79 moons in its gravitational grasp. It's hard to tell what's under all of those clouds of gas on Jupiter and some argue there isn't even a sizable solid core to the planet. As we research more and more about the moons of Jupiter it may seem that its moons are more intriguing than the planet itself. 
+
+			</p>
+		 </div>
+		 <div class="float-left">
+			<h6>Characteristics</h6>
+			<p style="margin-right:75px;">
+
+			Mass: 1.898 x 10^27 kg <br>
+			Diameter: 139,820 km <br>
+			Density: 1,326 g/cm^3 <br>
+			Temperature: Average (Clouds): -234 &#176;F <br>
+			Orbital Period: 11.862 Earth Years <br>
+			Average distance from Sun: 5.2 AU <br>
+
+			</p>
+		 </div>
+
+		 <div class="float-right">
+			<img src="Jupiter1.jpg" class="rounded" alt="Jupiter" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+
+
+  		  </div>
+                </div>
+		</div>
+		
+		<br>
+
+		<div class="card text-white" style= "background-color: #464646;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Saturn</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+			Our Solar System's 6th planet and one of the most stunning ones by far. Saturn holds onto some beautiful rings in its gravitational surroundings, composed mostly of Ice particles, rocks, and dust. It's the 2nd largest planet in our Solar System behind Jupiter, although its density makes it extremely light. If you were to find a swimming pool to fit Saturn in it would float as its mean density is actually less than the density of water. Don't let the oversized pool toy metaphor fool you however, as Saturn has strong weather and wind patterns the same as its other Jovian counterparts. Saturn has an estimated amount of 82 solar moons, although only 53 have been confirmed and named. 
+
+			</p>
+		 </div>
+		<div class="float-left">
+			<img src="Saturn2.jpg" class="rounded" alt="Saturn" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+		 <div class="float-right">
+			<h6 style="margin-left:75px;">Characteristics</h6>
+			<p style="margin-left:75px;">
+			Mass: 5.683 x 10^26 kg <br>
+			Diameter: 116,460 km <br>
+			Density: 0.687 g/cm^3 <br>
+			Temperature: Average (Clouds): -288 &#176;F <br> 
+			Orbital Period: 29.457 Earth Years <br> 
+			Average distance from Sun: 9.5 AU <br>
+
+			</p>
+		 </div>
+
+  		  </div>
+                </div>
+		</div>
+
+	</div>
+  	<div class="col">
+
+		<br>
+
+		<div class="card text-white" style= "background-color: 	#2f2f2f;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Uranus</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+			Uranus is the 7th planet in our Solar System and first of the two "Ice Giants". Unlike the two gas giants that came before it, Uranus is primarily made up of Ices that contain water, ammonia, and methane. Uranus has about 27 moons and a smaller ring system around the planet. One other interesting fact about Uranus is that it spins on its side where its rotation is almost aligned with a right angle from the sun. This gives Uranus the most extreme seasons. If you thought the winters in New York were bad then you wouldn't believe what Uranus would have in store for you. 
+			</p>
+		 </div>
+		 <div class="float-left">
+			<h6>Characteristics</h6>
+			<p style="margin-right:75px;">
+
+			Mass: 8.6810 x 10^25 kg <br>
+			Diameter: 50,724 km 	<br>
+			Density: 1.27 g/cm^3 <br>
+			Temperature: Average: -357 &#176;F <br>
+			Orbital Period: 84.02 Earth Years <br> 
+			Average distance from Sun: 20.1 AU <br>
+
+
+			</p>
+		 </div>
+
+		 <div class="float-right">
+			<img src="Uranus1.jpg" class="rounded" alt="Uranus" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+
+
+  		  </div>
+                </div>
+		</div>
+
+		<br>
+
+		<div class="card text-white" style= "background-color: #171717;">
+
+      		<div class="card-body">
+       		 <h4 class="card-title">Neptune</h4>
+		<div class="row no-gutters">
+  		 <div class="p-3">
+			<h6>Overview</h6>
+			<p>
+			The farthest known planet in our Solar System, Neptune is the second "Ice Giant" in our Solar System. Deep out here in space you would think it would be more calm and silent, however, Neptune has been shown to have huge storms / vortexes disrupt its surface. Contrary to Uranus, Neptune is actually warmer on its surface than its counterpart mostly due to internal heating occurring from the core of this planet. Neptune seems to be the final major planet in our Solar System although that doesn't stop astronomers from trying to find more planets further out past this water / Ice heater of a planet. 
+			</p>
+		 </div>
+		<div class="float-left">
+			<img src="Neptune1.jpg" class="rounded" alt="Neptune" style="width:200px;height:200px;border-style: solid; border-width: 2px;border-color: white;">
+		 </div>
+
+		 <div class="float-right">
+			<h6 style="margin-left:75px;">Characteristics</h6>
+			<p style="margin-left:75px;">
+
+			Mass: 1.024 x 10^26 kg <br>
+			Diameter: 49,244 km <br>
+			Density: 1.638 g/cm^3 <br>
+			Temperature: Average: -353 &#176;F <br>
+			Orbital Period: 164.8 Earth Years <br>
+			Average distance from Sun: 30 AU <br> 
+
+			</p>
+		 </div>
+
+
+  		  </div>
+                </div>
+		</div>
+
+
+	</div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light rounded">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial" class="btn btn-dark">Terrestrial Planets</a>
+    </li>
+    </ul>
+   <ul class = "navbar-nav mr-right"> 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Technology" class="btn btn-dark">Tools and Technology</a>
+    </li>
+   </ul>
+ </div>
+</nav>
+<br>
+<br>
+
+<div class="footer bg-dark container-fluid">
+  <p>Webpage Made by: Matthew Morfea | All Rights Reserved - .jpg Image Holders</p>
+</div>
+
+</body>
+</html>

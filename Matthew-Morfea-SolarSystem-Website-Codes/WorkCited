@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <title>Work Cited</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+  .footer {
+   	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+  	color: white;
+   	text-align: right;
+}
+.bg {
+  /* The image used */
+  background-image: url("Space3.jfif");
+  
+  /* Full height */
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+</style>
+
+</head>
+<body>
+
+<div class = "bg">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/SolarSystem">Home</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun">The Sun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial">Terrestrial Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian">Jovian Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Technology">Tools and Technology</a>
+   </ul>
+   <ul class = "navbar-nav mr-right"> 
+ 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/WorkCited" class="btn btn-light">Work Cited</a>
+    </li>
+
+   </ul>
+ </div>
+</nav>
+
+
+
+<div class="container p-3 my-3 rounded border bg-light">
+  <h1>Work Cited</h1>
+  <p>Here is a compilation of all of the resources I used in creating this website.
+  From Astronomy to Computer Science and Images alike.
+  </p>
+
+	<hr>
+
+  <p>
+	href="https://solarsystem.nasa.gov/planets/overview/ <br>
+	<br>
+	https://en.wikipedia.org/wiki/Solar_System <br>
+ 	<br>
+	https://en.wikipedia.org/wiki/Lists_of_planets <br>
+	<br>
+	https://en.wikipedia.org/wiki/Sun <br>
+	<br>
+	https://www.nasa.gov/image-feature/images-of-the-sun-from-the-goes-16-satellite <br>
+	<br>
+	https://www.w3schools.com/css/ <br>
+	<br>
+	https://getbootstrap.com/docs/4.5/getting-started/introduction/ <br>
+	<br>
+	Bartholomew, Amy. "Exploring The Solar System." 205. 2020, SUNY New Paltz, SUNY New Paltz.  <br>
+	<br>
+	https://solarsystem.nasa.gov/missions/?order=launch_date+desc&per_page=50&page=0&search=&fs=&fc=&ft=&dp=&category=
+	<br><br>
+	https://solarsystem.nasa.gov/missions/hubble-space-telescope/in-depth/
+	<br><br>
+	https://solarsystem.nasa.gov/missions/voyager-1/in-depth/
+	<br><br>
+	https://solarsystem.nasa.gov/missions/soho/in-depth/
+	<br><br>
+	https://solarsystem.nasa.gov/missions/wise-neowise/in-depth/<br>
+  </p>
+</div>
+	<br>
+	<br>
+<div class="footer bg-dark container-fluid">
+  <p>Webpage Made by: Matthew Morfea | All Rights Reserved - .jpg Image Holders</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+  <title>Tools and Technology</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+  .footer {
+   	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+  	color: white;
+   	text-align: right;
+}
+.bg {
+  /* The image used */
+  background-image: url("Space3.jfif");
+  
+  /* Full height */
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+</style>
+
+</head>
+<body>
+
+<div class = "bg">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/SolarSystem">Home</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Sun">The Sun</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Terrestrial">Terrestrial Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian">Jovian Planets</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Technology">Tools and Technology</a>
+   </ul>
+   <ul class = "navbar-nav mr-right"> 
+ 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/WorkCited" class="btn btn-light">Work Cited</a>
+    </li>
+
+   </ul>
+ </div>
+</nav>
+
+
+
+<div class="container p-3 my-3 border bg-light">
+  <h1>Tools and Technology</h1>
+		<p>
+			When researching the planets and Solar System, it isnt all guesswork. Here are some of my favorite Missions and Projects
+			used to discover what we know today about our Solar System and beyond.
+		</p>
+	<hr>
+
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+	
+ 	 <div class="col-6">
+	  <div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+		<img src="SOHO.jpg" class="card-img-top rounded" alt="SOHO" style="">
+	<hr>
+     	   <h5 class="card-title">SOHO</h5>
+     	   <p>
+		SOHO is a satellite used to originally learn more about our sun and obtain evidence of processes in and around the sun. This ranges from the Corona, Solar winds, Chromosphere, and the sun's internal structures and dynamics. In fact, this satellite has confirmed a lot of what we know today about the sun and helped us determine and monitor solar winds and forecasts of the magnetic field of our sun. SOHO is acting as our in the field solar weather man, who has been running for 24 years and is still running today. 
+	   </p>
+ 	 </div>
+	</div>
+
+	<br>
+
+	<div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+		<img src="Hubble.jpg" class="card-img-top rounded" alt="Hubble" style="">
+	<hr>
+     	   <h5 class="card-title">Hubble Space Telescope</h5>
+     	   <p>
+		One of the most important telescopes for direct imaging of the Solar System and beyond is the Hubble Space Telescope. From pictures of our planets to the Hubble Deep Field Image displaying all of the visible universe, this telescope has told us a lot and given us some beautiful images in all different spectrums of light. I may have some personal bias as I remember my mom showing images taken by Hubble, but as far as images and research go I think Hubble is my personal favorite telescope but out by NASA. Still working today and its been active for over 30 years! 
+	   </p>
+ 	 </div>
+	</div>
+
+	<br>
+
+	<div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+           <p>
+		For more information on Satellites, Telescopes, and future missions and projects, please go to this link to learn about the history and future of technology in Astronomy. 
+ 
+	   </p>
+		<hr>
+		<a href="https://solarsystem.nasa.gov/missions/?order=launch_date+desc&per_page=50&page=0&search=&fs=&fc=&ft=&dp=&category=">https://solarsystem.nasa.gov/missions/?</a>
+ 	 </div>
+	</div>
+
+</div>
+  	<div class="col-6">
+	 <div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+     	   <h5 class="card-title">Voyager 1</h5>
+     	   <p>
+		Voyager 1 is simply put, one of the most incredible feats of engineering in almost all of human history. As it continues to fly out further into interstellar space, Voyager 1 gave us some of the best images of Jovian moons and planets to date and helped us discover many new moons, Jovian ring bands, and countless other objects in the outer Solar System. The Voyager missions still run today and Voyager 1 has been operating since 1977, over 43 years!!! We owe a lot of our knowledge of the outer Solar System to Voyager 1 and  Voyager 2, voyager 1's sister project. 
+	   </p>
+		<hr>
+		<img src="Voyager1.jpg" class="card-img-bottom rounded" alt="Voyager" style="">
+ 	 </div>
+	</div>
+
+	<br>
+
+	<div class="card" style = "background-color: #ECECEC;">
+     	   <div class="card-body">
+     	   <h5 class="card-title">WISE / NEOWISE</h5>
+     	   <p>
+		WISE, which was later given a new name NEOWISE, is best described as a NASA brand CCTV camera, used for Earth's surveillance and safety. NEOWISE is used to scan the Solar System for potentially hazardous Near-Earth Objects (NEOs). NEOWISE can be compared as Earth's technological watchdog as it allows us to sleep at night knowing that there are not any hazardous objects hurling towards Earth. If we found dangerous objects near our orbit NEOWISE may be the first to detect the hazard. It is currently still in our orbit scanning for objects today, along with 10 years under its belt. 
+	   </p>
+		<hr>
+		<img src="WISE.jpg" class="card-img-bottom rounded" alt="WISE" style="">
+ 	 </div>
+	</div>
+
+
+	</div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-light rounded">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/Jovian" class="btn btn-dark">Jovian Planets</a>
+    </li>
+    </ul>
+   <ul class = "navbar-nav mr-right"> 
+   <li class="nav-item navbar-right">
+      <a href="http://cs.newpaltz.edu/~morfeam1/SolarSystem/WorkCited" class="btn btn-dark">Work Cited</a>
+    </li>
+   </ul>
+ </div>
+</nav>
+
+<br>
+<br>
+</div>
+
+<div class="footer bg-dark container-fluid">
+  <p>Webpage Made by: Matthew Morfea | All Rights Reserved - .jpg Image Holders</p>
+</div>
+
+</body>
+</html>
